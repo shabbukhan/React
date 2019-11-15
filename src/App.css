@@ -1,0 +1,32 @@
+
+.search{
+  text-align: center;
+}
+h1{display: inline-block; font-size: 2em;}
+
+form input[type='text']{
+width: 50%;
+height: 40px;
+font-size: 2em;
+}
+
+.bodyContent{text-align: center;}
+
+.listing li{border-bottom: 1px solid #FFF; list-style: none; text-align: left; padding: 5px 30px;}
+
+.listing li:nth-child(even){background: #e9fbe9;}
+.listing li:nth-child(odd){background: #52e052;}
+
+button{background: #52e052; padding: 10px 20px; color: #fff; 
+border: none; font-size: 1.5em; cursor: pointer; border-radius: 4px;} 
+header button{ border-radius:0; background: none;}
+
+.arrow {
+  cursor: pointer;
+  margin: 4px;
+  color: #d42121;
+  font-weight: bold;
+}
+.arrow:after {
+  content: " \25B2";
+}
